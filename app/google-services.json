@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "358041135598",
+    "project_id": "mysplashscreen-195c0",
+    "storage_bucket": "mysplashscreen-195c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358041135598:android:6fbd81d0b039df7db806ff",
+        "android_client_info": {
+          "package_name": "com.example.mysplashscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358041135598-ubfij9t53r4t6euhf8v9e6jq20vrlbul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCku6hUX2-O448Hnx_RuAJEWmJRId-Em-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358041135598-ubfij9t53r4t6euhf8v9e6jq20vrlbul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

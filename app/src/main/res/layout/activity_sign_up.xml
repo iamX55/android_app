@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <EditText
+
+        android:id="@+id/text_4_id"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="336dp"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:hint="User Email"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:inputType="textEmailAddress"
+        android:drawablePadding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+
+        android:drawableLeft="@drawable/ic_baseline_attach_email_24"
+
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/text_5_id"
+        android:layout_width="336dp"
+        android:layout_height="64dp"
+        android:textSize="25sp"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="20dp"
+        android:inputType="textWebPassword"
+        android:textColor="@color/black"
+        android:ems="10"
+
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="157dp" />
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/text_6_id"
+        android:layout_width="336dp"
+        android:layout_height="64dp"
+        android:textSize="25sp"
+        android:hint="Confirm Password"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="20dp"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:ems="10"
+
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <Button
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="336dp"
+        android:layout_height="64dp"
+        android:id="@+id/button_1_id"
+        android:textAllCaps="false"
+        android:text="Registered"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:paddingRight="20dp"
+        android:drawableLeft="@drawable/ic_baseline_login_24"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="314dp" />
+    <ProgressBar
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/progress_1_id"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>

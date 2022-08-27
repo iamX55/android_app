@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+
+    tools:context=".SpashScreen">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="100dp"
+        app:srcCompat="@drawable/weather_icon" />
+
+    <ProgressBar
+        android:id="@+id/progressbarId"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:progressTint="@color/purple_700"
+        android:layout_height="2dp"
+        android:layout_margin="80dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="264dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="15dp"
+        android:text="Loading..."
+        android:textColor="@color/purple_700"
+        android:textSize="48sp"
+        android:paddingLeft="30dp"
+        android:textStyle="italic" />
+
+</LinearLayout>
